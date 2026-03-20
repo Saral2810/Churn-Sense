@@ -118,7 +118,7 @@ streamlit run App.py
 ```text
 Net Profit = (True Positives × CLV × Success Rate)
              - (Predicted Positives × Retention Cost)
-
+```
 💸 Money Matrix → Financial impact of predictions
 
 👨‍💻 Contributor
