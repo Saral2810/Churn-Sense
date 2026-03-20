@@ -63,3 +63,63 @@ It then applies a **Profit Optimization Engine** to determine the exact point wh
 ```bash
 git clone https://github.com/yourusername/churn-retention-hq.git
 cd churn-retention-hq
+2️⃣ Install Dependencies
+pip install streamlit pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn shap
+🖥️ Usage
+▶️ Run Interactive Dashboard
+streamlit run App.py
+
+⚙️ Steps:
+
+Upload your dataset (CSV)
+
+Enter:
+
+Customer Lifetime Value (CLV)
+
+Retention Cost
+
+Success Rate
+
+Download the generated Action List (SEND OFFER customers)
+
+📊 Deep-Dive Analysis
+
+Open the notebook:
+
+Customer Churn Code.ipynb
+Includes:
+
+⚖️ SMOTE Data Balancing
+
+💸 Financial Confusion Matrix (Money Matrix)
+
+🔎 SHAP Explainability
+
+📈 Model Evaluation
+
+💰 Methodology
+🧮 Profit Optimization Engine
+Net Profit = (True Positives × CLV × Success Rate)
+             - (Predicted Positives × Retention Cost)
+
+The system evaluates thresholds from 0 → 1 to identify the point of maximum ROI.
+🎯 Strategic Segmentation
+
+💎 High Value / High Tenure (VIPs)
+→ Immediate intervention (calls, premium offers)
+
+📉 Low Value / Low Tenure
+→ Automated, low-cost campaigns
+
+📈 Visual Outputs
+
+📊 Profit Curve → Best ROI threshold
+
+📌 Feature Importance → Key churn drivers
+
+💸 Money Matrix → Financial impact of predictions
+
+👨‍💻 Contributor
+
+Saral Singhal
