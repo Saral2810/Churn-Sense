@@ -63,12 +63,16 @@ It then applies a **Profit Optimization Engine** to determine the exact point wh
 ```bash
 git clone https://github.com/yourusername/churn-retention-hq.git
 cd churn-retention-hq
+```
 2️⃣ Install Dependencies
+```bash
 pip install streamlit pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn shap
+```
 🖥️ Usage
 ▶️ Run Interactive Dashboard
+```bash
 streamlit run App.py
-
+```
 ⚙️ Steps:
 
 Upload your dataset (CSV)
