@@ -73,54 +73,51 @@ pip install streamlit pandas numpy matplotlib seaborn scikit-learn xgboost imbal
 ```bash
 streamlit run App.py
 ```
-⚙️ Steps:
+---
 
-Upload your dataset (CSV)
+## 🖥️ Usage Workflow
 
-Enter:
+- 📂 **Seamless Data Upload**  
+  Import customer dataset in CSV format directly into the dashboard  
 
-Customer Lifetime Value (CLV)
+- 💰 **Business Parameter Configuration**  
+  Define key inputs:
+  - Customer Lifetime Value (CLV)  
+  - Retention Cost  
+  - Success Rate  
 
-Retention Cost
+- 🎯 **Actionable Decision Output**  
+  Generate and download a prioritized **SEND OFFER customer list**  
 
-Success Rate
+---
 
-Download the generated Action List (SEND OFFER customers)
+## 📊 Deep-Dive Analysis
 
-📊 Deep-Dive Analysis
+- 📓 **Notebook Exploration**  
+  Analyze model logic using `Customer Churn Code.ipynb`  
 
-Open the notebook:
+- ⚖️ **SMOTE Balancing**  
+  Corrects class imbalance for more reliable predictions  
 
-Customer Churn Code.ipynb
-Includes:
+- 💸 **Financial Confusion Matrix**  
+  Evaluates predictions based on actual monetary impact  
 
-⚖️ SMOTE Data Balancing
+- 🔎 **SHAP Explainability**  
+  Identifies key drivers influencing churn behavior  
 
-💸 Financial Confusion Matrix (Money Matrix)
+- 📈 **Model Evaluation**  
+  Provides performance metrics and validation insights  
 
-🔎 SHAP Explainability
+---
 
-📈 Model Evaluation
+## 💰 Methodology
 
-💰 Methodology
-🧮 Profit Optimization Engine
+- 🧮 **Profit Optimization Engine**  
+  Focuses on maximizing business value instead of just accuracy  
+
+```text
 Net Profit = (True Positives × CLV × Success Rate)
              - (Predicted Positives × Retention Cost)
-
-The system evaluates thresholds from 0 → 1 to identify the point of maximum ROI.
-🎯 Strategic Segmentation
-
-💎 High Value / High Tenure (VIPs)
-→ Immediate intervention (calls, premium offers)
-
-📉 Low Value / Low Tenure
-→ Automated, low-cost campaigns
-
-📈 Visual Outputs
-
-📊 Profit Curve → Best ROI threshold
-
-📌 Feature Importance → Key churn drivers
 
 💸 Money Matrix → Financial impact of predictions
 
