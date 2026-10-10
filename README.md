@@ -66,7 +66,7 @@ cd churn-retention-hq
 ```
 2️⃣ Install Dependencies
 ```bash
-pip install streamlit pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn shap
+pip install -r requirements.txt
 ```
 🖥️ Usage
 ▶️ Run Interactive Dashboard
