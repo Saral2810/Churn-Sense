@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Legacy 90 MB pickles from the original notebook (superseded by backend/artifacts)
+legacy/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/

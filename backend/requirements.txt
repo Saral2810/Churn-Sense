@@ -1,0 +1,10 @@
+# Runtime (pinned: the model artifact must load with the same scikit-learn it was trained on)
+numpy==2.0.2
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.4.2
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.4
+pydantic-settings==2.9.1
+python-multipart==0.0.20

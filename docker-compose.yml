@@ -1,0 +1,16 @@
+# Local full stack: docker compose up --build → dashboard on :5173, API on :8000
+services:
+  api:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      CORS_ORIGINS: http://localhost:5173
+  web:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev -- --host 0.0.0.0"
+    volumes: ["./frontend:/app", "/app/node_modules"]
+    ports: ["5173:5173"]
+    environment:
+      VITE_API_URL: http://localhost:8000
+    depends_on: [api]

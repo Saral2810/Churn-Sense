@@ -1,0 +1,441 @@
+{
+  "kpis": {
+    "customers": 440832,
+    "churned": 249999,
+    "churn_rate": 0.5671,
+    "avg_tenure": 31.3,
+    "avg_spend": 631.62,
+    "revenue_at_risk": 135320840.6,
+    "avg_support_calls": 3.6
+  },
+  "by_contract": [
+    {
+      "name": "Annual",
+      "customers": 177198,
+      "churn_rate": 0.4608,
+      "avg_spend": 651.7
+    },
+    {
+      "name": "Monthly",
+      "customers": 87104,
+      "churn_rate": 1.0,
+      "avg_spend": 550.62
+    },
+    {
+      "name": "Quarterly",
+      "customers": 176530,
+      "churn_rate": 0.4603,
+      "avg_spend": 651.43
+    }
+  ],
+  "by_subscription": [
+    {
+      "name": "Basic",
+      "customers": 143026,
+      "churn_rate": 0.5818,
+      "avg_spend": 628.67
+    },
+    {
+      "name": "Premium",
+      "customers": 148678,
+      "churn_rate": 0.5594,
+      "avg_spend": 632.93
+    },
+    {
+      "name": "Standard",
+      "customers": 149128,
+      "churn_rate": 0.5607,
+      "avg_spend": 633.13
+    }
+  ],
+  "by_gender": [
+    {
+      "name": "Female",
+      "customers": 190580,
+      "churn_rate": 0.6667,
+      "avg_spend": 613.37
+    },
+    {
+      "name": "Male",
+      "customers": 250252,
+      "churn_rate": 0.4913,
+      "avg_spend": 645.51
+    }
+  ],
+  "by_age": [
+    {
+      "name": "18-25",
+      "customers": 73683,
+      "churn_rate": 0.5643,
+      "avg_spend": 632.87
+    },
+    {
+      "name": "26-35",
+      "customers": 104108,
+      "churn_rate": 0.4912,
+      "avg_spend": 645.6
+    },
+    {
+      "name": "36-45",
+      "customers": 118413,
+      "churn_rate": 0.428,
+      "avg_spend": 657.55
+    },
+    {
+      "name": "46-55",
+      "customers": 90203,
+      "churn_rate": 0.5785,
+      "avg_spend": 629.83
+    },
+    {
+      "name": "56+",
+      "customers": 54425,
+      "churn_rate": 1.0,
+      "avg_spend": 549.7
+    }
+  ],
+  "by_tenure": [
+    {
+      "name": "0-6",
+      "customers": 40378,
+      "churn_rate": 0.6235,
+      "avg_spend": 621.15
+    },
+    {
+      "name": "7-12",
+      "customers": 44751,
+      "churn_rate": 0.5547,
+      "avg_spend": 633.14
+    },
+    {
+      "name": "13-24",
+      "customers": 79967,
+      "churn_rate": 0.6327,
+      "avg_spend": 619.85
+    },
+    {
+      "name": "25-36",
+      "customers": 91473,
+      "churn_rate": 0.5412,
+      "avg_spend": 637.33
+    },
+    {
+      "name": "37-48",
+      "customers": 91932,
+      "churn_rate": 0.5413,
+      "avg_spend": 636.74
+    },
+    {
+      "name": "49-60",
+      "customers": 92331,
+      "churn_rate": 0.543,
+      "avg_spend": 634.89
+    }
+  ],
+  "by_support_calls": [
+    {
+      "name": "0",
+      "customers": 69875,
+      "churn_rate": 0.3028,
+      "avg_spend": 680.23
+    },
+    {
+      "name": "1",
+      "customers": 69476,
+      "churn_rate": 0.3036,
+      "avg_spend": 681.77
+    },
+    {
+      "name": "2",
+      "customers": 66571,
+      "churn_rate": 0.3155,
+      "avg_spend": 679.1
+    },
+    {
+      "name": "3",
+      "customers": 52729,
+      "churn_rate": 0.4164,
+      "avg_spend": 660.31
+    },
+    {
+      "name": "4",
+      "customers": 38750,
+      "churn_rate": 0.585,
+      "avg_spend": 627.42
+    },
+    {
+      "name": "5",
+      "customers": 24918,
+      "churn_rate": 0.9471,
+      "avg_spend": 561.96
+    },
+    {
+      "name": "6",
+      "customers": 23554,
+      "churn_rate": 1.0,
+      "avg_spend": 549.23
+    },
+    {
+      "name": "7",
+      "customers": 23870,
+      "churn_rate": 1.0,
+      "avg_spend": 550.46
+    },
+    {
+      "name": "8",
+      "customers": 23559,
+      "churn_rate": 1.0,
+      "avg_spend": 550.98
+    },
+    {
+      "name": "9",
+      "customers": 23630,
+      "churn_rate": 1.0,
+      "avg_spend": 548.69
+    },
+    {
+      "name": "10",
+      "customers": 23900,
+      "churn_rate": 1.0,
+      "avg_spend": 551.28
+    }
+  ],
+  "by_payment_delay": [
+    {
+      "name": "0-5",
+      "customers": 101454,
+      "churn_rate": 0.4645,
+      "avg_spend": 651.23
+    },
+    {
+      "name": "6-10",
+      "customers": 84793,
+      "churn_rate": 0.4659,
+      "avg_spend": 650.41
+    },
+    {
+      "name": "11-15",
+      "customers": 85571,
+      "churn_rate": 0.4658,
+      "avg_spend": 649.95
+    },
+    {
+      "name": "16-20",
+      "customers": 84984,
+      "churn_rate": 0.4646,
+      "avg_spend": 651.5
+    },
+    {
+      "name": "21-25",
+      "customers": 42134,
+      "churn_rate": 1.0,
+      "avg_spend": 550.33
+    },
+    {
+      "name": "26-30",
+      "customers": 41896,
+      "churn_rate": 1.0,
+      "avg_spend": 550.04
+    }
+  ],
+  "by_last_interaction": [
+    {
+      "name": "1-5",
+      "customers": 83381,
+      "churn_rate": 0.492,
+      "avg_spend": 644.99
+    },
+    {
+      "name": "6-10",
+      "customers": 83639,
+      "churn_rate": 0.4923,
+      "avg_spend": 645.67
+    },
+    {
+      "name": "11-15",
+      "customers": 83375,
+      "churn_rate": 0.4937,
+      "avg_spend": 645.65
+    },
+    {
+      "name": "16-20",
+      "customers": 63377,
+      "churn_rate": 0.6634,
+      "avg_spend": 614.03
+    },
+    {
+      "name": "21-25",
+      "customers": 63475,
+      "churn_rate": 0.6666,
+      "avg_spend": 612.72
+    },
+    {
+      "name": "26-30",
+      "customers": 63585,
+      "churn_rate": 0.6649,
+      "avg_spend": 613.59
+    }
+  ],
+  "spend_distribution": [
+    {
+      "bucket": "100",
+      "churned": 12841,
+      "retained": 0
+    },
+    {
+      "bucket": "145",
+      "churned": 12953,
+      "retained": 0
+    },
+    {
+      "bucket": "190",
+      "churned": 13081,
+      "retained": 0
+    },
+    {
+      "bucket": "235",
+      "churned": 13127,
+      "retained": 0
+    },
+    {
+      "bucket": "280",
+      "churned": 12869,
+      "retained": 0
+    },
+    {
+      "bucket": "325",
+      "churned": 13016,
+      "retained": 0
+    },
+    {
+      "bucket": "370",
+      "churned": 13144,
+      "retained": 0
+    },
+    {
+      "bucket": "415",
+      "churned": 13264,
+      "retained": 0
+    },
+    {
+      "bucket": "460",
+      "churned": 12844,
+      "retained": 1923
+    },
+    {
+      "bucket": "505",
+      "churned": 12285,
+      "retained": 17094
+    },
+    {
+      "bucket": "550",
+      "churned": 12060,
+      "retained": 17234
+    },
+    {
+      "bucket": "595",
+      "churned": 11983,
+      "retained": 17122
+    },
+    {
+      "bucket": "640",
+      "churned": 11915,
+      "retained": 17297
+    },
+    {
+      "bucket": "685",
+      "churned": 12100,
+      "retained": 17161
+    },
+    {
+      "bucket": "730",
+      "churned": 12176,
+      "retained": 17070
+    },
+    {
+      "bucket": "775",
+      "churned": 12285,
+      "retained": 17184
+    },
+    {
+      "bucket": "820",
+      "churned": 12069,
+      "retained": 17308
+    },
+    {
+      "bucket": "865",
+      "churned": 11744,
+      "retained": 17209
+    },
+    {
+      "bucket": "910",
+      "churned": 12220,
+      "retained": 17123
+    },
+    {
+      "bucket": "955",
+      "churned": 12023,
+      "retained": 17108
+    }
+  ],
+  "segments": [
+    {
+      "name": "New High-Spenders",
+      "customers": 125581,
+      "share": 0.2849,
+      "churn_rate": 0.4586,
+      "avg_spend": 742.53,
+      "avg_tenure": 12.6,
+      "avg_usage": 16.8
+    },
+    {
+      "name": "Quiet Loyalists",
+      "customers": 110691,
+      "share": 0.2511,
+      "churn_rate": 0.4579,
+      "avg_spend": 725.06,
+      "avg_tenure": 42.8,
+      "avg_usage": 7.4
+    },
+    {
+      "name": "Power Loyalists",
+      "customers": 108947,
+      "share": 0.2471,
+      "churn_rate": 0.4394,
+      "avg_spend": 720.72,
+      "avg_tenure": 43.3,
+      "avg_usage": 23.7
+    },
+    {
+      "name": "Budget Drifters",
+      "customers": 95613,
+      "share": 0.2169,
+      "churn_rate": 0.9816,
+      "avg_spend": 276.22,
+      "avg_tenure": 28.6,
+      "avg_usage": 15.2
+    }
+  ],
+  "insights": [
+    {
+      "title": "Contract length is the #1 lever",
+      "detail": "Monthly contracts churn at 100% vs 46% for annual plans. Converting monthly customers to longer terms is the highest-ROI play.",
+      "severity": "critical"
+    },
+    {
+      "title": "Support friction predicts exit",
+      "detail": "Customers with more than 5 support calls churn at 100% (vs 41%). Route them to priority support early.",
+      "severity": "high"
+    },
+    {
+      "title": "Late payments are an early warning",
+      "detail": "A payment delay above 20 days pushes churn to 100%. Trigger flexible-payment offers at day 10.",
+      "severity": "high"
+    },
+    {
+      "title": "Low spenders are fragile",
+      "detail": "Customers spending under 500 churn at 100% vs 41% above. Upsell bundles increase stickiness.",
+      "severity": "medium"
+    }
+  ]
+}

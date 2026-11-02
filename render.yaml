@@ -1,0 +1,23 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# New → Blueprint → pick this repo. Then set CORS_ORIGINS to your Vercel URL.
+services:
+  - type: web
+    name: churnsense-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: ENVIRONMENT
+        value: production
+      - key: CORS_ORIGINS
+        sync: false # e.g. https://churnsense.vercel.app
+      - key: CORS_ORIGIN_REGEX
+        sync: false # optional, e.g. https://churnsense-.*\.vercel\.app
+      - key: API_KEY
+        sync: false # optional

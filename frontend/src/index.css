@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* Mist blue: off-white canvas, white cards, soft slate-blue text, one muted blue accent. */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-page: #f7f9fc;
+  --color-mist: #eef2f8;
+  --color-line: #e3e9f2;
+  --color-ink: #34405a;
+  --color-ink-soft: #6a7384;
+  --color-ink-faint: #8590a3;
+
+  --color-accent: #6e8fc4;
+  --color-accent-strong: #5a7db5;
+  --color-accent-soft: #eaf0fa;
+  --color-accent-text: #3e5e99;
+
+  --color-low: #8cc5c0;
+  --color-low-soft: #e2f2f0;
+  --color-low-text: #2f6e68;
+  --color-med: #ebc57e;
+  --color-med-soft: #fbf0dc;
+  --color-med-text: #8a6420;
+  --color-high: #f0b08a;
+  --color-high-soft: #fcebdd;
+  --color-high-text: #8f5530;
+  --color-crit: #e59c9c;
+  --color-crit-soft: #f9e5e5;
+  --color-crit-text: #9a4545;
+}
+
+@layer base {
+  html { color-scheme: light; }
+  body {
+    @apply bg-page text-ink font-sans antialiased;
+    min-height: 100vh;
+  }
+  ::selection { background: var(--color-accent-soft); }
+}
+
+@utility card {
+  @apply rounded-2xl border border-line bg-white;
+}
+@utility card-pad { @apply p-5 sm:p-6; }
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-accent text-white hover:bg-accent-strong;
+}
+@utility btn-ghost { @apply btn border border-line bg-white text-ink-soft hover:bg-mist hover:text-ink; }
+@utility field-label { @apply text-xs font-medium uppercase tracking-wider text-ink-faint; }
+@utility field {
+  @apply w-full rounded-xl border border-line bg-white px-3 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20;
+}
+@utility chip { @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium; }
+
+input[type="range"] {
+  @apply w-full cursor-pointer appearance-none bg-transparent;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  @apply h-1.5 rounded-full bg-mist;
+}
+input[type="range"]::-webkit-slider-thumb {
+  @apply -mt-[5px] h-4 w-4 appearance-none rounded-full border-2 border-white bg-accent shadow-[0_0_0_1px_var(--color-accent)];
+}
+input[type="range"]::-moz-range-track { @apply h-1.5 rounded-full bg-mist; }
+input[type="range"]::-moz-range-thumb { @apply h-4 w-4 rounded-full border-2 border-white bg-accent; }
+
+.recharts-cartesian-grid line { stroke: var(--color-line); }
+.recharts-text { fill: var(--color-ink-faint); font-size: 12px; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.animate-rise { animation: rise 0.35s ease-out both; }
+@media (prefers-reduced-motion: reduce) { .animate-rise { animation: none; } }
